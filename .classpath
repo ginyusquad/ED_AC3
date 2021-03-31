@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.apiguardian_1.1.0.v20190826-0900.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit_4.13.0.v20200204-1500.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.jupiter.api_5.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.jupiter.engine_5.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.jupiter.migrationsupport_5.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.jupiter.params_5.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.platform.commons_1.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.platform.engine_1.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.platform.launcher_1.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.platform.runner_1.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.platform.suite.api_1.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.junit.vintage.engine_5.7.0.v20201026-1537.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit5/org.opentest4j_1.2.0.v20190826-0900.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
