@@ -10,7 +10,7 @@ import ex4_5.sources.BTNode;
 import ex4_5.sources.LinkedBinaryTree;
 import ex4_5.sources.Position;
 
-// 4. Implemente e teste o TAD ¡rvore Bin·ria conforme slides de 15 a 26
+//  cLASSE de testes da 4 e 5 
 public class LinkedBinaryTreeTest {
 
 	@Test
@@ -30,7 +30,7 @@ public class LinkedBinaryTreeTest {
 		assertEquals(true ,T.hasLeft(incorreto));
 		assertEquals(true ,T.hasRight(incorreto));		
 		assertEquals("Ciencia", T.left(incorreto).element());
-		assertEquals("ComputaÁ„o", T.right(incorreto).element());
+		assertEquals("Computa√ß√£o", T.right(incorreto).element());
 		
 		Position<String> incorreto1 = T.right(incorreto);		
 		assertEquals(true ,T.hasLeft(incorreto1));
@@ -52,9 +52,9 @@ public class LinkedBinaryTreeTest {
 		assertEquals("*++-777-111111-+111++*/333/555/*222*+***191919*-232323-292929-**171717**", Arvore5A.eulerTour(Arvore5A, raiz5A));
 		// i) printExpression conforme slide 53.
 		assertEquals("((((7-11)+1)+((3/5)*2))*((19*(23-29))*17))", Arvore5A.printExpression(Arvore5A, raiz5A));
-		// j) MÈtodo para contar os nodos esquerdos e externos de uma ·rvore bin·ria.
+		// j) M√©todo para contar os nodos esquerdos e externos de uma √°rvore bin√°ria.
 		assertEquals(4, Arvore5A.countLeft(Arvore5A));
-		// k) MÈtodo para contar os nodos direitos e externos de uma ·rvore bin·ria.
+		// k) M√©todo para contar os nodos direitos e externos de uma √°rvore bin√°ria.
 		assertEquals(6, Arvore5A.countRight(Arvore5A));
 		
 	}
@@ -69,7 +69,7 @@ public class LinkedBinaryTreeTest {
 		a = (BTNode<String>) T.insertRight(raiz, "Digitais");
 		
 		T.insertLeft(a, "Ciencia");
-		b = (BTNode<String>) T.insertRight(a, "ComputaÁ„o");	
+		b = (BTNode<String>) T.insertRight(a, "Computa√ß√£o");	
 		
 		T.insertLeft(b, "Redes");
 		T.insertRight(b, "Estrutura de Dados");		
