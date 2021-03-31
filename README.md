@@ -1,11 +1,9 @@
 # ED_AC3
 
-![Exercicio_6](https://raw.githubusercontent.com/ginyusquad/ED_AC3/main/AC3_Ex6.png)
-
  Projeto eclipse da Atividade continua 03 de Estrutura de dados
   * [Exercicios 2 e 3](https://github.com/ginyusquad/ED_AC3/tree/main/src/ex2_3)
   * [Exercicios 4 e 5](https://github.com/ginyusquad/ED_AC3/tree/main/src/ex4_5)
-
+  
 ## Oque há nesse projeto?
   
   Todas as atividades envolvendo codigo comtempladas na AC 03 
